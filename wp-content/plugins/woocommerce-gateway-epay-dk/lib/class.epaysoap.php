@@ -25,7 +25,7 @@ class epaysoap
 		$epay_params["orderid"] = $orderid;
 		$epay_params["amount"] = $amount;
 		$epay_params["currency"] = $currency;
-		$epay_params["instantcapture"] = $instantcapture;
+		$epay_params["instantcapture"] = 1;
 		$epay_params["group"] = $group;
 		$epay_params["email"] = $email;
 		$epay_params["pwd"] = $this->pwd;
